@@ -52,23 +52,11 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML and CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -76,9 +64,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[My skill on web technology]**
+- **[My Previous works]**
+- **[Feedback got from the clients]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,76 +91,69 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+Git 
+NPM
+a MODERN Browser
+Internet
+Visual Studil Code editor
+Live server installation
+Others
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+git clone url
+cd repositoryName
+git branch
+git branch feature
+git branch
+git checkout feature
+git branch
+git status
+git add .
+git commit -m
+git push -u origin feature
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+npm init -y
+mkdir .github
+cd .github
+mkdir workflows
+cd workflows
+touch linters.yml
+add linters.yml from instruction of linters
+git add .
 
-```sh
-  cd my-project
-  gem install
-```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
+install the extention of live server to your vs code.
+enable it . it may enable automatically.
+now go to index.html file
+right click on your mouse.
+go to live serve.
+click on it.
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,19 +177,19 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[My name]**
+- [ ] **[My skill]**
+- [ ] **[My puntually]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
