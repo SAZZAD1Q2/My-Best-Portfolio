@@ -236,7 +236,7 @@ header {
 }
 
 .contact-button-card a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -258,7 +258,7 @@ header {
 
 .card-last-button {
   padding: 12px;
-  width: 327px;
+  width: 350px;
   text-align: center;
   background: #ff6b00;
 }
@@ -269,11 +269,12 @@ header {
   flex-direction: column;
   place-items: center;
   width: 375px;
-  background: linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-    ),
+  background: 
+  linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/Img\ Placeholder55.png);
 }
 
@@ -308,6 +309,19 @@ header {
   display: flex;
   list-style: none;
   padding-top: 22px;
+}
+
+.skillname a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  text-align: center;
 }
 
 .card-pro-buttons ul li a {
@@ -369,7 +383,7 @@ header {
   color: white;
 }
 
-/* == skill part start ==*/
+/*==skill partstart==*/
 .skill {
   display: flex;
   flex-direction: column;
@@ -383,6 +397,7 @@ header {
   color: #fff;
   padding-left: 24px;
   align-items: center;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -396,19 +411,6 @@ header {
 .skillname {
   list-style: none;
   padding-bottom: 20px;
-  text-align: center;
-}
-
-.skillname a {
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
   text-align: center;
 }
 
@@ -427,12 +429,11 @@ header {
   width: 327px;
   height: 216px;
   margin-top: 100px;
-  font-family: "Inter";
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  text-align: center;
   color: #172b4d;
   flex: none;
   order: 0;
@@ -470,14 +471,14 @@ header {
   width: 127px;
   height: 24px;
   padding: 12px;
-  font-family: "Inter";
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   background: #ff6b00;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
