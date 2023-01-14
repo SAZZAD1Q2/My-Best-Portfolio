@@ -91,6 +91,10 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
+    NodeJS
+    Browser
+
 Git 
 NPM
 a MODERN Browser
@@ -103,35 +107,19 @@ Others
 ### Setup
 
 Clone this repository to your desired folder:
-
-git clone url
-cd repositoryName
-git branch
-git branch feature
-git branch
-git checkout feature
-git branch
-git status
-git add .
-git commit -m
-git push -u origin feature
+  git clone git@github.com:SAZZAD1Q2/My-Best-Portfolio.git
+  cd My-Best-Portfolio
 
 ### Install
 
 Install this project with:
 
-npm init -y
-mkdir .github
-cd .github
-mkdir workflows
-cd workflows
-touch linters.yml
-add linters.yml from instruction of linters
-git add .
-
-
+  npm install
 
 ### Usage
+To run the project, open the project with live server and visit 
+
+http://localhost:5500
 
 To run the project, execute the following command:
 install the extention of live server to your vs code.
