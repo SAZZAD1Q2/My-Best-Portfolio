@@ -142,6 +142,7 @@ header {
   width: 375px;
   background: #fff;
 }
+
 .card-content {
   display: grid;
   place-items: center;
@@ -151,9 +152,9 @@ header {
 .card-header {
   width: 327px;
   text-align: center;
-  padding: 24px 0px;
+  padding: 24px 0;
   font-size: 26px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
@@ -176,9 +177,8 @@ header {
   text-align: center;
   width: 327px;
   height: 36px;
-  margin-bottom: 12px;
   font-size: 22px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 24px;
@@ -191,7 +191,7 @@ header {
 
 .card-text {
   width: 327px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -201,6 +201,7 @@ header {
   order: 0;
   flex-grow: 0;
 }
+
 .card-buttons {
   margin-bottom: 12px;
 }
@@ -213,12 +214,42 @@ header {
   padding-top: 22px;
 }
 
+.card-last-button a {
+  padding: 24px 12px 12px 12px;
+  margin-bottom: 22px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-about-button a {
+  margin-left: 23px;
+  padding: 12px;
+  margin-bottom: 100px;
+  gap: 10px;
+  text-decoration: none;
+  width: 161px;
+  background: #ff6b00;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.contact-button-card a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-media-links a {
+  padding-left: 14px;
+}
+
 .card-buttons ul li a {
   margin-left: 12px;
   text-decoration: none;
   padding: 10px 12px;
   color: #091e42;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #8993a4;
   flex: none;
   order: 2;
@@ -232,13 +263,6 @@ header {
   background: #ff6b00;
 }
 
-.card-last-button a {
-  padding: 24px 12px 12px 12px;
-  margin-bottom: 22px;
-  text-decoration: none;
-  color: #fff;
-}
-
 /* professional part */
 .card2 {
   display: flex;
@@ -246,9 +270,9 @@ header {
   place-items: center;
   width: 375px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(img/Img\ Placeholder55.png);
 }
@@ -260,7 +284,7 @@ header {
   width: 295px;
   height: 81px;
   text-align: center;
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -298,10 +322,6 @@ header {
   flex-grow: 0;
 }
 
-.card-last-button {
-  color: #fff;
-}
-
 /* === about part start === */
 .card-3 {
   margin-top: 120px;
@@ -317,7 +337,7 @@ header {
   margin-bottom: 24px;
   text-align: center;
   margin-left: 20px;
-  font-family: "Crete Round";
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -334,7 +354,7 @@ header {
   margin-left: 18px;
   margin-bottom: 12px;
   text-align: center;
-  font-family: 'sans-serif';
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 21px;
@@ -342,20 +362,6 @@ header {
   color: #f4f5f7;
   flex: none;
   order: 1;
-  flex-grow: 0;
-}
-
-.card-about-button a{
-  margin-left: 23px;
-  padding: 12px;
-  margin-bottom: 100px;
-  gap: 10px;
-  text-decoration: none;
-  width: 161px;
-  background: #ff6b00;
-  color: #fff;
-  flex: none;
-  order: 2;
   flex-grow: 0;
 }
 
@@ -477,16 +483,11 @@ header {
   flex-grow: 0;
 }
 
-.contact-button-card a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .footer-social-media {
-text-align: center;
-width: 327px;
-display: flex;
-justify-content: center;
+  text-align: center;
+  width: 327px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-media-links {
@@ -495,8 +496,4 @@ justify-content: center;
   width: 327px;
   list-style: none;
   padding-right: 30px;
-}
-
-.footer-media-links a{
-  padding-left: 14px;
 }
