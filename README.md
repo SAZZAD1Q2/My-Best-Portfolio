@@ -1,33 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ 
+  <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -60,9 +37,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 My Best Portfoio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> My Best Portfoio is a portfolio from you can see my experience and skill.
 
 **[your_project__name]** is a...
 
@@ -75,23 +52,11 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML and CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -99,9 +64,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[My skill on web technology]**
+- **[My Previous works]**
+- **[Feedback got from the clients]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,75 +92,58 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+    NodeJS
+    Browser
 
-```sh
- gem install rails
-```
- -->
+Git 
+NPM
+a MODERN Browser
+Internet
+Visual Studil Code editor
+Live server installation
+Others
+
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone git@github.com:SAZZAD1Q2/My-Best-Portfolio.git
+  cd My-Best-Portfolio
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+  npm install
 
 ### Usage
+To run the project, open the project with live server and visit http://localhost:5500
+
+Open in browser
+
+http://localhost:5500
 
 To run the project, execute the following command:
+install the extention of live server to your vs code.
+enable it . it may enable automatically.
+now go to index.html file
+right click on your mouse.
+go to live serve.
+click on it.
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,19 +167,19 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[My name]**
+- [ ] **[My skill]**
+- [ ] **[My puntually]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
