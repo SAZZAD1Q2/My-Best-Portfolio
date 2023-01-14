@@ -117,7 +117,9 @@ Install this project with:
   npm install
 
 ### Usage
-To run the project, open the project with live server and visit 
+To run the project, open the project with live server and visit http://localhost:5500
+
+Open in browser
 
 http://localhost:5500
 
