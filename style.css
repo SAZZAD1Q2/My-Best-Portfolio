@@ -140,14 +140,11 @@ header {
 
 .grid {
   width: 375px;
-
   background: #fff;
 }
-
 .card-content {
   display: grid;
   place-items: center;
-
   width: 375px;
 }
 
@@ -159,20 +156,21 @@ header {
   font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
-
   line-height: 52px;
-
   color: #1c1a19;
 }
+
 .card-img {
   width: 327px;
   top: 107px;
   margin-bottom: 107px;
 }
+
 .card-main-img {
   width: 327px;
   margin-bottom: 24px;
 }
+
 .card-subtitle {
   margin: 0 auto;
   text-align: center;
@@ -185,9 +183,7 @@ header {
   font-weight: 400;
   margin-bottom: 24px;
   line-height: 44px;
-
   color: #091e42;
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -195,24 +191,20 @@ header {
 
 .card-text {
   width: 327px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   color: #091e42;
-
   flex: none;
-
   order: 0;
-
   flex-grow: 0;
 }
 .card-buttons {
   margin-bottom: 12px;
 }
+
 .card-buttons ul {
   margin-left: 12px;
   width: 327px;
@@ -220,35 +212,28 @@ header {
   list-style: none;
   padding-top: 22px;
 }
+
 .card-buttons ul li a {
   margin-left: 12px;
   text-decoration: none;
   padding: 10px 12px;
-
   color: #091e42;
-
   background: #ffffff;
-
   border: 1px solid #8993a4;
-
   flex: none;
   order: 2;
   flex-grow: 0;
 }
+
 .card-last-button {
   padding: 12px;
-
   width: 327px;
   text-align: center;
-
-  /* Theme 3 / Primary 1 */
   background: #ff6b00;
-
-  /* Inside auto layout */
 }
+
 .card-last-button a {
   padding: 24px 12px 12px 12px;
-
   margin-bottom: 22px;
   text-decoration: none;
   color: #fff;
@@ -267,6 +252,7 @@ header {
     ),
     url(img/Img\ Placeholder55.png);
 }
+
 .card-title {
   margin-top: 84px;
   padding-top: 12px;
@@ -279,23 +265,19 @@ header {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 138% */
-
-  /* Neutrals/N0 */
   color: #fff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .card-pro-text {
   color: #fff;
   align-items: center;
   width: 295px;
   margin-left: 10px;
 }
+
 .card-pro-buttons ul {
   margin-left: 12px;
   width: 327px;
@@ -303,24 +285,23 @@ header {
   list-style: none;
   padding-top: 22px;
 }
+
 .card-pro-buttons ul li a {
   margin-left: 12px;
   text-decoration: none;
   padding: 10px 12px;
-
   background: rgba(255, 255, 255, 0.24);
-
   border: 1px solid #8993a4;
-
   color: #fff;
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .card-last-button {
   color: #fff;
 }
+
 /* === about part start === */
 .card-3 {
   margin-top: 120px;
@@ -341,60 +322,47 @@ header {
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
-
-  /* or 122% */
   letter-spacing: 0.37px;
-
-  /* Theme 3 / Primary 1 */
   color: #ff6b00;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .card-about-text {
   width: 327px;
   margin-left: 18px;
   margin-bottom: 12px;
   text-align: center;
-
-  /* Theme 3 / Body Reguler 2 */
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: lighter;
+  font-size: 25px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Neutrals/N20 */
   color: #f4f5f7;
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
 }
-.card-about-button {
+
+.card-about-button a{
   margin-left: 23px;
   padding: 12px;
   margin-bottom: 100px;
   gap: 10px;
-
+  text-decoration: none;
   width: 161px;
-
-  /* Theme 3 / Primary 1 */
   background: #ff6b00;
   color: #fff;
-  /* Inside auto layout */
   flex: none;
   order: 2;
   flex-grow: 0;
 }
+
 .about-img {
   color: white;
 }
+
 /* == skill part start ==*/
 .skill {
   display: flex;
@@ -404,6 +372,7 @@ header {
   width: 327px;
   order: 2;
 }
+
 .skill-img {
   color: #fff;
   padding-left: 24px;
@@ -413,14 +382,17 @@ header {
   font-size: 32px;
   line-height: 44px;
 }
+
 .sn {
   padding-left: 38px;
 }
+
 .skillname {
   list-style: none;
   padding-bottom: 20px;
   text-align: center;
 }
+
 .skillname a {
   color: #fff;
   text-decoration: none;
@@ -430,12 +402,10 @@ header {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-
-  /* or 194% */
   display: flex;
-
   text-align: center;
 }
+
 /* === contact area start ==== */
 .card4 {
   display: flex;
@@ -445,6 +415,7 @@ header {
   align-items: center;
   width: 327px;
 }
+
 .contact-text-card {
   margin-left: 50px;
   width: 327px;
@@ -455,23 +426,17 @@ header {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 138% */
   text-align: center;
-
-  /* Neutrals/N800 */
   color: #172b4d;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .contact-field-card {
   width: 327px;
   height: 200px;
   margin-left: 47px;
-  /* Theme 3 / Neutral 10 */
   background: #fff;
 }
 
@@ -484,17 +449,19 @@ header {
   border: none;
   border-bottom: 1px solid rgb(218, 203, 203);
 }
+
 .input-textarea {
   width: 320px;
   height: 120px;
   background: #fbf8f7;
   border: none;
 }
+
 .contact-button-card {
   margin-bottom: 120px;
   margin-top: 200px;
   margin-left: 28px;
-  width: 107px;
+  width: 127px;
   height: 24px;
   padding: 12px;
   font-family: "Inter";
@@ -503,22 +470,33 @@ header {
   font-size: 17px;
   line-height: 24px;
   background: #ff6b00;
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .contact-button-card a {
   color: #ffffff;
   text-decoration: none;
 }
-.footer-social-media {
 
+.footer-social-media {
+text-align: center;
+width: 327px;
+display: flex;
+justify-content: center;
 }
+
 .footer-media-links {
-  
+  display: flex;
+  justify-content: center;
+  width: 327px;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.footer-media-links a{
+  padding-left: 14px;
 }
