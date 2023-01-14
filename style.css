@@ -40,6 +40,7 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .nav-icon {
@@ -104,6 +105,7 @@ header {
 .social-media {
   position: relative;
   width: 375px;
+  padding-top: 2px;
   background: #1c1a19;
 }
 
