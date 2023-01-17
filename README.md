@@ -39,15 +39,13 @@
 
 # 📖 My Best Portfoio <a name="about-project"></a>
 
-> My Best Portfoio is a portfolio from you can see my experience and skill.
-
-**[your_project__name]** is a...
+**My Best Portfolio** is a destination of web technology solution
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+
 
 <details>
   <summary>Client</summary>
@@ -62,7 +60,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[My skill on web technology]**
 - **[My Previous works]**
@@ -74,7 +71,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -84,9 +80,12 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
+1. git clone https://github.com/SAZZAD1Q2/My-Best-Portfolio.git
+2. Make a new branch
+That's all.
 
 ### Prerequisites
 
@@ -151,7 +150,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -171,11 +169,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[My name]**
-- [ ] **[My skill]**
-- [ ] **[My puntually]**
+- [ ] **[Javascript]**
+- [ ] **[Bootstrap]**
+- [ ] **[Node.js]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,9 +190,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please contact me. sazzad1q2@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,7 +200,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank all the client who like to use  my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,15 +208,16 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+2. Will you give me free service?
 
-  - [Answer_1]
+- **How long would you support me?**
 
-- **[Question_2]**
+  - one year free support
 
-  - [Answer_2]
+- **How long would you support me?**
+
+  - [one year free service]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
