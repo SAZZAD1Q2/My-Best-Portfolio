@@ -1,5 +1,5 @@
-body {
-  margin: 0;
+* {
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -28,7 +28,7 @@ header {
 
 .logo a {
   height: 24px;
-  padding-left: 24px;
+  padding-left: 1px;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -45,7 +45,7 @@ header {
 
 .nav-icon {
   position: relative;
-  right: 16.67%;
+  right: 1.67%;
 }
 
 .hero {
@@ -58,6 +58,7 @@ header {
 }
 
 .title {
+  margin-top: 120px;
   width: 327px;
   height: 124px;
   font-family: "Crete Round", serif;
@@ -73,6 +74,8 @@ header {
 }
 
 .sub-title {
+  margin-top: 12px;
+  margin-bottom: 12px;
   width: 327px;
   height: 27px;
   font-family: "Roboto", sans-serif;
@@ -103,6 +106,7 @@ header {
 }
 
 .social-media {
+  
   position: relative;
   width: 375px;
   padding-top: 2px;
@@ -110,9 +114,9 @@ header {
 }
 
 .media-links {
+  padding-top: 24px;
   display: flex;
   flex-direction: row;
-  padding-left: 25px;
   padding-bottom: 130px;
   width: 200px;
   height: 40px;
@@ -132,15 +136,17 @@ header {
 }
 
 .image .img1 {
+  margin-left: -40px;
   height: 300px;
   top: -30px;
   bottom: 0.36%;
   overflow: hidden;
 }
+/* == work section start == */
 
 .grid {
+  display: grid;
   width: 375px;
-  background: #fff;
 }
 
 .card-content {
@@ -152,7 +158,8 @@ header {
 .card-header {
   width: 327px;
   text-align: center;
-  padding: 24px 0;
+  margin-top: 107px;
+  padding: 12px 0;
   font-size: 26px;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -163,12 +170,19 @@ header {
 
 .card-img {
   width: 327px;
-  top: 107px;
-  margin-bottom: 107px;
+  height: 1px;
+  margin-top: -1px;
+  margin-bottom: 67px;
+  background-image: url(img/Vector44.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card-main-img {
   width: 327px;
+  height: 237px;
+  background-image: url(img/Img\ Placeholder88.png);
   margin-bottom: 24px;
 }
 
@@ -202,17 +216,22 @@ header {
   flex-grow: 0;
 }
 
-.card-buttons {
+.work-card-buttons {
   margin-bottom: 12px;
 }
 
-.card-buttons ul {
-  margin-left: 12px;
+.work-card-buttons ul {
   width: 327px;
   display: flex;
   list-style: none;
   padding-top: 22px;
   color: #fff;
+}
+.work-card-buttons ul li a{
+ padding: 10px 12px;
+ text-decoration: none;
+ border: 1px solid #000;
+ color: #000;
 }
 
 .card-last-button a {
@@ -222,23 +241,39 @@ header {
   color: #fff;
 }
 
-.card-about-button a {
+.card-about-button {
+  margin-bottom: 24px;
   margin-left: 23px;
+  margin-top: 12px;
   padding: 12px;
-  margin-bottom: 100px;
   gap: 10px;
   text-decoration: none;
   width: 161px;
   background: #ff6b00;
   color: #fff;
   flex: none;
-  order: 2;
+  order: 0;
   flex-grow: 0;
+  align-self: flex-start;
+  text-align: center;
+}
+.card-about-button a{
+  color: white;
+  text-decoration: none;
 }
 
-.contact-button-card a {
-  color: #fff;
-  text-decoration: none;
+.about-image{
+  margin-top: -80px;
+  margin-right: 0;
+  height: 250px;
+  width: 170px;
+  background-image: url(img/About.png);
+  background-size: 100%;
+  color: #ff6b00;
+  background-repeat: no-repeat;
+  background-position:center;
+  align-self: flex-end;
+
 }
 
 .footer-media-links a {
@@ -258,9 +293,9 @@ header {
 }
 
 .card-buttons ul li a {
-  margin-left: 12px;
+  
   text-decoration: none;
-  padding: 10px 12px;
+  padding: 10px 0;
   color: #091e42;
   background: #fff;
   border: 1px solid #8993a4;
@@ -269,19 +304,23 @@ header {
   flex-grow: 0;
 }
 
-.card-last-button {
-  padding: 12px;
-  width: 350px;
-  text-align: center;
-  background: #ff6b00;
-  color: #fff;
+/* == professional section start == */
+
+.professional-card{
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr)/1;
+  flex-wrap: wrap;
+  place-items: center;
+  width: 375px;
 }
 
 .card2 {
   display: flex;
   flex-direction: column;
-  place-items: center;
-  width: 375px;
+  flex-wrap: wrap;
+ align-items: center;
+  width: 327px;
   background:
     linear-gradient(
       180.45deg,
@@ -289,6 +328,7 @@ header {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(img/Img\ Placeholder55.png);
+
 }
 
 .card-title {
@@ -317,7 +357,8 @@ header {
 }
 
 .card-pro-buttons ul {
-  margin-left: 12px;
+  
+  margin-bottom: 14px;
   width: 327px;
   display: flex;
   list-style: none;
@@ -336,17 +377,28 @@ header {
   flex-grow: 0;
 }
 
-/* === about part start === */
+.pro-card-button {
+width: 327px;
+background-color: #ff6b00;
+color: white;
+margin-top: 24px;
+padding: 12px 0;
+text-align: center;
+text-decoration: none;
+}
+
+/* === about section start === */
 .card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 120px;
   padding-top: 120px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
   width: 375px;
   background: #1c1a19;
 }
 
-.card-about-title {
+.card-about-title h3 {
   width: 327px;
   margin-bottom: 24px;
   margin-left: 20px;
@@ -362,7 +414,7 @@ header {
   flex-grow: 0;
 }
 
-.card-about-text {
+.card-about-text p{
   width: 327px;
   margin-left: 18px;
   margin-bottom: 12px;
@@ -479,6 +531,10 @@ header {
   order: 0;
   flex-grow: 0;
 }
+.contact-button-card a{
+ text-decoration: none;
+ color: white;
+}
 
 .footer-social-media {
   text-align: center;
@@ -493,6 +549,10 @@ header {
   width: 327px;
   list-style: none;
   padding-right: 30px;
+}
+
+.footer-media-links img{
+ color: #000;
 }
 
 .footer-img-last {
