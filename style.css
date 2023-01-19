@@ -24,6 +24,8 @@ header {
 
 .nav-icon {
   margin: 60px 24px 19px 0;
+  position: relative;
+  right: 1.67%;
 }
 
 .logo a {
@@ -42,11 +44,6 @@ header {
   line-height: 24px;
   text-decoration: none;
   margin-left: -5px;
-}
-
-.nav-icon {
-  position: relative;
-  right: 1.67%;
 }
 
 /* == hero section start == */
@@ -146,6 +143,7 @@ header {
   bottom: 0.36%;
   overflow: hidden;
 }
+
 /* == work section start == */
 
 .grid {
@@ -225,6 +223,17 @@ header {
   margin-bottom: 12px;
 }
 
+.card-last-button a {
+  padding: 24px 12px 12px 12px;
+  margin-bottom: 22px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-media-links a {
+  padding-left: 14px;
+}
+
 .work-card-buttons ul {
   width: 327px;
   display: flex;
@@ -232,18 +241,34 @@ header {
   padding-top: 22px;
   color: #fff;
 }
-.work-card-buttons ul li a{
- padding: 10px 12px;
- text-decoration: none;
- border: 1px solid #000;
- color: #000;
+
+.card-about-button a {
+  color: white;
+  text-decoration: none;
 }
 
-.card-last-button a {
-  padding: 24px 12px 12px 12px;
-  margin-bottom: 22px;
-  text-decoration: none;
+.skillname a {
   color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+}
+
+.contact-button-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.work-card-buttons ul li a {
+  padding: 10px 12px;
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
 }
 
 .card-about-button {
@@ -262,12 +287,8 @@ header {
   align-self: flex-start;
   text-align: center;
 }
-.card-about-button a{
-  color: white;
-  text-decoration: none;
-}
 
-.about-image{
+.about-image {
   margin-top: -80px;
   margin-right: 0;
   margin-bottom: 30px;
@@ -275,41 +296,24 @@ header {
   width: 170px;
   background-image: url(img/About.png);
   background-size: 100%;
-  color: #ff6b00;
+  color:#ff6b00;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   align-self: flex-end;
-
 }
+
 .about-vector-img {
   width: 327px;
   height: 1px;
   background-image: url(img/pro5.png);
-  background:rgb(208, 204, 204);
+  background-color:rgb(208, 204, 204);
   margin-bottom: 30px;
 }
 
-.footer-media-links a {
-  padding-left: 14px;
-}
-
-.skillname a {
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-}
-
 .card-buttons ul li a {
-  
   text-decoration: none;
   padding: 10px 0;
-  color: #091e42;
+  color:#091e42;
   background: #fff;
   border: 1px solid #8993a4;
   flex: none;
@@ -319,10 +323,10 @@ header {
 
 /* == professional section start == */
 
-.professional-card{
+.professional-card {
   margin-bottom: 24px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr)/1;
+  grid-template-columns: repeat(1, 1fr) / 1;
   flex-wrap: wrap;
   place-items: center;
   width: 375px;
@@ -332,16 +336,14 @@ header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
- align-items: center;
+  align-items: center;
   width: 327px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(img/Img\ Placeholder55.png);
-
 }
 
 .card-title {
@@ -368,14 +370,13 @@ header {
   width: 295px;
   margin-left: 15px;
   font-family: "Inter", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .card-pro-buttons ul {
-  
   margin-bottom: 14px;
   width: 327px;
   display: flex;
@@ -386,7 +387,7 @@ line-height: 24px;
 .card-pro-buttons ul li a {
   text-decoration: none;
   padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
+  background:rgba(255, 255, 255, 0.24);
   border: 1px solid #8993a4;
   color: #fff;
   flex: none;
@@ -395,13 +396,13 @@ line-height: 24px;
 }
 
 .pro-card-button {
-width: 327px;
-background-color: #ff6b00;
-color: white;
-margin-top: 24px;
-padding: 12px 0;
-text-align: center;
-text-decoration: none;
+  width: 327px;
+  background-color: #ff6b00;
+  color: white;
+  margin-top: 24px;
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* === about section start === */
@@ -431,12 +432,11 @@ text-decoration: none;
   flex-grow: 0;
 }
 
-.card-about-text p{
+.card-about-text p {
   width: 327px;
   margin-left: 18px;
   margin-bottom: 12px;
   font-family: "Inter", sans-serif;
-
   font-style: normal;
   font-weight: lighter;
   font-size: 16px;
@@ -447,7 +447,7 @@ text-decoration: none;
   flex-grow: 0;
 }
 
- .skill {
+.skill {
   display: grid;
   place-items: center;
   width: 327px;
@@ -475,8 +475,6 @@ text-decoration: none;
   line-height: 44px;
 }
 
-
-
 .skillname {
   list-style: none;
   padding-bottom: 40px;
@@ -490,9 +488,9 @@ text-decoration: none;
 
 .card-4 {
   display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
   width: 327px;
 }
 
@@ -511,7 +509,7 @@ align-content: center;
 .contact-field-card {
   width: 327px;
   height: 200px;
-  
+
   background: #fff;
 }
 
@@ -549,11 +547,6 @@ align-content: center;
   color: #fff;
 }
 
-.contact-button-card a{
-  text-decoration: none;
-  color: white;
- }
-
 .contact-last-img {
   width: 327px;
   height: 1px;
@@ -563,7 +556,6 @@ align-content: center;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
- 
 }
 
 .footer-social-media {
@@ -583,8 +575,8 @@ align-content: center;
   padding-right: 30px;
 }
 
-.footer-media-links img{
- color: #000;
+.footer-media-links img {
+  color: #000;
 }
 
 .footer-img-last {
