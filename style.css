@@ -9,21 +9,21 @@ header {
   align-items: center;
   width: 375px;
   height: 92px;
-  top: 50%;
   background: #3c3a39;
   color: white;
-}
-
-.contact {
-  width: 375px;
-  background: #3c3a39;
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
 
 .flex-container li {
   list-style: none;
   color: #fff;
+}
+
+.logo {
+  margin: 56px 0 12px 24px;
+}
+
+.nav-icon {
+  margin: 60px 24px 19px 0;
 }
 
 .logo a {
@@ -41,12 +41,15 @@ header {
   font-size: 18px;
   line-height: 24px;
   text-decoration: none;
+  margin-left: -5px;
 }
 
 .nav-icon {
   position: relative;
   right: 1.67%;
 }
+
+/* == hero section start == */
 
 .hero {
   display: flex;
@@ -106,7 +109,7 @@ header {
 }
 
 .social-media {
-  
+  align-items: center;
   position: relative;
   width: 375px;
   padding-top: 2px;
@@ -117,6 +120,7 @@ header {
   padding-top: 24px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding-bottom: 130px;
   width: 200px;
   height: 40px;
@@ -136,7 +140,7 @@ header {
 }
 
 .image .img1 {
-  margin-left: -40px;
+  margin-left: 32px;
   height: 300px;
   top: -30px;
   bottom: 0.36%;
@@ -159,6 +163,7 @@ header {
   width: 327px;
   text-align: center;
   margin-top: 107px;
+  margin-bottom: 10px;
   padding: 12px 0;
   font-size: 26px;
   font-family: "Crete Round", serif;
@@ -360,7 +365,12 @@ header {
   color: #fff;
   align-items: center;
   width: 295px;
-  margin-left: 10px;
+  margin-left: 15px;
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 
 .card-pro-buttons ul {
@@ -373,7 +383,6 @@ header {
 }
 
 .card-pro-buttons ul li a {
-  margin-left: 12px;
   text-decoration: none;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -425,10 +434,11 @@ text-decoration: none;
   width: 327px;
   margin-left: 18px;
   margin-bottom: 12px;
-  font-family: "Crete Round", serif;
+  font-family: "Inter", sans-serif;
+
   font-style: normal;
   font-weight: lighter;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
   flex: none;
@@ -488,7 +498,7 @@ align-content: center;
 .contact-text-card {
   width: 327px;
   margin-top: 110px;
-  font-family: "Crete Round", serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
