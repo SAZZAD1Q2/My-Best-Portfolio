@@ -265,6 +265,7 @@ header {
 .about-image{
   margin-top: -80px;
   margin-right: 0;
+  margin-bottom: 30px;
   height: 250px;
   width: 170px;
   background-image: url(img/About.png);
@@ -274,6 +275,12 @@ header {
   background-position:center;
   align-self: flex-end;
 
+}
+.about-vector-img {
+  width: 327px;
+  height: 1px;
+  background-color: rgb(169, 168, 168);
+  margin-bottom: 30px;
 }
 
 .footer-media-links a {
@@ -429,22 +436,26 @@ text-decoration: none;
   flex-grow: 0;
 }
 
-.about-img {
-  color: white;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ .skill {
+  display: grid;
+  place-items: center;
   width: 327px;
   order: 2;
 }
 
+.skill-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spslill {
+  margin-top: 30px;
+}
+
 .skill-img {
   color: #fff;
-  padding-left: 24px;
   align-items: center;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -453,45 +464,43 @@ text-decoration: none;
   line-height: 44px;
 }
 
-.sn {
-  padding-left: 38px;
-}
+
 
 .skillname {
   list-style: none;
-  padding-bottom: 20px;
-  text-align: center;
+  padding-bottom: 40px;
 }
 
-.card4 {
+.lastskill {
+  padding-bottom: 80px;
+}
+
+/* == cantact part start == */
+
+.card-4 {
   display: flex;
-  place-items: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
   width: 327px;
 }
 
 .contact-text-card {
-  margin-left: 50px;
   width: 327px;
-  height: 216px;
-  margin-top: 100px;
+  margin-top: 110px;
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  text-align: center;
 }
 
 .contact-field-card {
   width: 327px;
   height: 200px;
-  margin-left: 47px;
+  
   background: #fff;
 }
 
@@ -507,15 +516,15 @@ text-decoration: none;
 
 .input-textarea {
   width: 320px;
-  height: 120px;
+  padding: 12px 0 120px 12px;
   background: #fbf8f7;
   border: none;
+  text-align: start;
 }
 
 .contact-button-card {
   margin-bottom: 120px;
-  margin-top: 200px;
-  margin-left: 28px;
+  margin-top: 235px;
   width: 127px;
   height: 24px;
   padding: 12px;
@@ -527,16 +536,28 @@ text-decoration: none;
   background: #ff6b00;
   letter-spacing: 0.03em;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
+
 .contact-button-card a{
- text-decoration: none;
- color: white;
+  text-decoration: none;
+  color: white;
+ }
+
+.contact-last-img {
+  width: 327px;
+  height: 1px;
+  margin-top: -1px;
+  background-image: url(img/Vector44.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+ 
 }
 
 .footer-social-media {
+  margin-top: 30px;
+  margin-bottom: 16px;
   text-align: center;
   width: 327px;
   display: flex;
