@@ -284,7 +284,8 @@ header {
 .about-vector-img {
   width: 327px;
   height: 1px;
-  background-color: rgb(169, 168, 168);
+  background-image: url(img/pro5.png);
+  background:rgb(208, 204, 204);
   margin-bottom: 30px;
 }
 

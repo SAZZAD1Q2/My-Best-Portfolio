@@ -7,7 +7,7 @@
   <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Best Portfolio</b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
