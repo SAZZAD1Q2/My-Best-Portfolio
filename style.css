@@ -339,12 +339,11 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 327px;
-  background: 
-  linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ),
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(img/Img\ Placeholder55.png);
 }
 
@@ -403,6 +402,11 @@ header {
   color: white;
   margin-top: 24px;
   padding: 12px 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
   text-align: center;
   text-decoration: none;
 }
