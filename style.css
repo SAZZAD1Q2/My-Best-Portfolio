@@ -11,6 +11,7 @@
   align-items: center;
   width: 375px;
   height: 92px;
+  padding-top: 1px;
   background: #3c3a39;
   color: white;
   z-index: 1000;
