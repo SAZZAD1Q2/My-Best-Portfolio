@@ -257,13 +257,13 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   background-color: #ff6b00;
-  border:1px solid #ff6b00;
+  border: 1px solid #ff6b00;
   align-self: flex-start;
   margin-right: 185px;
 }
 
-.card-about-button a{
- margin-right: 38px;
+.card-about-button a {
+  margin-right: 38px;
 }
 
 .card-about-button:hover {
@@ -275,19 +275,9 @@
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  background-color: #FFF5E1;
+  background-color: #fff5e1;
   border:1px solid #ff6b00;
   color: #f55800;
-}
-
-.card-pro-buttons ul li a {
-  text-decoration: none;
-  padding: 10px 12px;
-  background-color: rgba(255, 255, 255, 0.24);
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .contact-button-card a {
@@ -307,11 +297,32 @@
   display: flex;
 }
 
+.card-pro-buttons ul li a {
+  text-decoration: none;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .work-card-buttons ul li a {
   padding: 10px 12px;
   text-decoration: none;
   border: 1px solid #000;
   color: #000;
+}
+
+.card-buttons ul li a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: #091e42;
+  background: #fff;
+  border: 1px solid #8993a4;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .contact-button-card a:hover {
@@ -339,17 +350,6 @@
   background-image: url(img/pro5.png);
   background-color: rgb(208, 204, 204);
   margin-bottom: 30px;
-}
-
-.card-buttons ul li a {
-  text-decoration: none;
-  padding: 10px 0;
-  color: #091e42;
-  background: #fff;
-  border: 1px solid #8993a4;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
 /* == professional section start == */
