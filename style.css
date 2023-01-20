@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-header {
+.header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +13,7 @@ header {
   height: 92px;
   background: #3c3a39;
   color: white;
+  z-index: 1000;
 }
 
 .flex-container li {
@@ -215,9 +218,6 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .work-card-buttons {
@@ -243,21 +243,56 @@ header {
   color: #fff;
 }
 
-.cab:hover {
-  padding: 0 30px;
-  color: #ff6b00;
-}
-
-.card-about-button a {
-  padding: 8px 22px;
-  margin: 10px;
+.card-about-button {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 12px 12px 0 14px;
+  padding-bottom: 12px;
   color: white;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-color: #ff6b00;
+  border:1px solid #ff6b00;
+  align-self: flex-start;
+  margin-right: 185px;
 }
 
-.card-about-button a:hover {
-  color: #f55800;
+.card-about-button a{
+ margin-right: 38px;
+}
+
+.card-about-button:hover {
+  padding: 12px 12px 12px 12px;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-color: #FFF5E1;
+  border:1px solid #ff6b00;
+  color: #f55800;
+}
+
+.card-pro-buttons ul li a {
+  text-decoration: none;
+  padding: 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contact-button-card a {
+  text-decoration: none;
+  color: white;
 }
 
 .skillname a {
@@ -272,15 +307,6 @@ header {
   display: flex;
 }
 
-.contact-button-card a {
-  text-decoration: none;
-  color: white;
-}
-.contact-button-card a:hover {
-  text-decoration: none;
-  color: #f55800;
-}
-
 .work-card-buttons ul li a {
   padding: 10px 12px;
   text-decoration: none;
@@ -288,39 +314,9 @@ header {
   color: #000;
 }
 
-.card-about-button {
-  margin-bottom: 24px;
-  margin-left: 23px;
-  margin-top: 12px;
-  padding: 12px;
-  gap: 10px;
+.contact-button-card a:hover {
   text-decoration: none;
-  width: 161px;
-  background: #ff6b00;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-self: flex-start;
-  text-align: center;
-}
-
-.card-about-button:hover {
-  margin-bottom: 24px;
-  margin-left: 23px;
-  margin-top: 12px;
-  padding: 12px;
-  gap: 10px;
-  text-decoration: none;
-  width: 161px;
-  background: #fff5e1;
-  border: 1px solid #ff6b00;
   color: #f55800;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  align-self: flex-start;
-  text-align: center;
 }
 
 .about-image {
@@ -373,7 +369,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 327px;
-  background: linear-gradient(
+  background: 
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -419,23 +416,12 @@ header {
   padding-top: 22px;
 }
 
-.card-pro-buttons ul li a {
-  text-decoration: none;
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
-  border: 1px solid #8993a4;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
 .pro-card-button {
   width: 327px;
   background-color: #ff6b00;
   color: white;
   margin-top: 24px;
-  padding: 12px 0;
+  padding: 16px 0 4px 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -443,13 +429,15 @@ header {
   line-height: 24px;
   text-align: center;
   text-decoration: none;
+  height: 40px;
 }
+
 .pro-card-button:hover {
   width: 327px;
   background: #fff5e1;
   color: #ff6b00;
   margin-top: 24px;
-  padding: 12px 0;
+  padding: 16px 0 4px 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -600,7 +588,9 @@ header {
   background: #ff6b00;
   letter-spacing: 0.03em;
   color: #fff;
+  text-align: center;
 }
+
 .contact-button-card:hover {
   margin-bottom: 120px;
   margin-top: 235px;
@@ -644,10 +634,6 @@ header {
   width: 327px;
   list-style: none;
   padding-right: 30px;
-}
-
-.footer-media-links img {
-  color: #000;
 }
 
 .footer-img-last {
