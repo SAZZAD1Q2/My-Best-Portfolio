@@ -243,8 +243,20 @@ header {
   color: #fff;
 }
 
+.cab:hover {
+  padding: 0 30px;
+  color: #ff6b00;
+}
+
 .card-about-button a {
+  padding: 8px 22px;
+  margin: 10px;
   color: white;
+  text-decoration: none;
+}
+
+.card-about-button a:hover {
+  color: #f55800;
   text-decoration: none;
 }
 
@@ -264,6 +276,10 @@ header {
   text-decoration: none;
   color: white;
 }
+.contact-button-card a:hover {
+  text-decoration: none;
+  color: #f55800;
+}
 
 .work-card-buttons ul li a {
   padding: 10px 12px;
@@ -282,6 +298,24 @@ header {
   width: 161px;
   background: #ff6b00;
   color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.card-about-button:hover {
+  margin-bottom: 24px;
+  margin-left: 23px;
+  margin-top: 12px;
+  padding: 12px;
+  gap: 10px;
+  text-decoration: none;
+  width: 161px;
+  background: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #f55800;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -339,8 +373,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 327px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -410,6 +443,21 @@ header {
   line-height: 24px;
   text-align: center;
   text-decoration: none;
+}
+.pro-card-button:hover {
+  width: 327px;
+  background: #fff5e1;
+  color: #ff6b00;
+  margin-top: 24px;
+  padding: 12px 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ff6b00;
 }
 
 /* === about section start === */
@@ -553,6 +601,23 @@ header {
   letter-spacing: 0.03em;
   color: #fff;
 }
+.contact-button-card:hover {
+  margin-bottom: 120px;
+  margin-top: 235px;
+  width: 127px;
+  height: 24px;
+  padding: 12px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #fff5e1;
+  text-align: center;
+  border: 1px solid #f55800;
+  letter-spacing: 0.03em;
+  color: #f55800;
+}
 
 .contact-last-img {
   width: 327px;
@@ -588,4 +653,11 @@ header {
 .footer-img-last {
   width: 375px;
   text-align: center;
+}
+
+.footer-lastest-img {
+  width: 375px;
+  height: 1px;
+  text-align: center;
+  padding-bottom: 5px;
 }
