@@ -152,13 +152,15 @@
 
 .grid {
   display: grid;
-  width: 375px;
+  width: 100vw;
 }
 
 .card-content {
-  display: grid;
-  place-items: center;
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
 }
 
 .card-header {
@@ -290,7 +292,7 @@
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-family: "Crete Round", serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
