@@ -264,40 +264,69 @@
     </div>
    </section>
    <!--contact section start-->
-   <section class="card-4">
-    <div class="contact-text-card">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</div>
-    <div class="contact-field-card">
-        <input class="input-field" type="text" placeholder="Full name">
-        <input class="input-field" type="text" placeholder="Email address">
-        <input class="input-textarea" type="textarea" placeholder="Enter text here">
-    </div>
-    <div class="contact-button-card"><a href="#">Get in touch</a></div>
-    <div class="contact-last-img"></div>
-   </section>
-   <!--footer social media part-->
-   <section class="footer-social-media">
-    <ul class="footer-media-links">
-        <li>
-          <a href="#"><img src="img/github/Vector.png" alt=""></a></li>
-      <li>
-          <a href="#"><img src="img/linkedin/Group.png" alt=""></a>
-      </li>
-      <li>
-          <a href="#"><img src="img/finger2/Vector.png" alt=""></a>
-      </li>
-      <li>
-          <a href="#"><img src="img/m/Vector.png" alt=""></a>
-      </li>
-      <li>
-          <a href="#"><img src="img/twitter/Vector.png" alt=""></a>
-      </li>
-      
-      </ul>
-    
-      
-    </section>
-    <div class="footer-lastest-img"><img src="img/Shape.png" alt=""></div>
+ <section class="contact-form-container">
+    <p>
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    </p>
+    <form action="">
+        <ul>
+            <li>
+                <label for="name">
+                <input type="text" id="name" name="name" maxlength="30" required placeholder="Full name">
+            </label>
+            </li>
+            <li>
+                <label for="email">
+                <input type="email" id="email" name="email" placeholder="Email address">
+            </label>
+            </li>
+            <li>
+                <label for="msg">
+                <textarea type="text" id="msg" name="msg" maxlength="500" required placeholder="Enter text here"></textarea></label>
+            </li>
+            <li>
+                <button type="submit">GET IN TOUCH</button>
+            </li>
+        </ul>
+     </form>
+ </section>
 
+ <!--footer part-->
+
+ <footer>
+    <hr class="top-line-footer">
+    <div class="footer-part">
+      <ul class="social_navigation-footer">
+        <li class="item">
+          <a href="#" target="_blank" rel="noopener">
+            <img src="icon/Vector1.png" alt="linkedin icon" />
+          </a>
+        </li>
+        <li class="item">
+          <a href="#" target="_self" rel="noopener">
+            <img src="icon/Vector2.png" alt="angel icon" />
+          </a>
+        </li>
+        <li class="item">
+          <a href="#" target="_blank" rel="noopener">
+            <img src="icon/Vector3.png" alt="twitter icon" />
+          </a>
+        </li>
+        <li class="item">
+          <a href="#" target="_self" rel="noopener">
+            <img src="icon/Vector4.png" alt="medium icon" />
+          </a>
+        </li>
+        <li class="item">
+            <a href="#" target="_blank" rel="noopener">
+              <img src="icon/Vector5.png" alt="gitHub icon" />
+            </a>
+          </li>
+      </ul>
+    </div>
+    <hr class="liner-footer">
+  </footer>
+  
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 </body>
