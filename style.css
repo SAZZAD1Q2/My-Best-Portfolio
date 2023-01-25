@@ -547,7 +547,7 @@ ul {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 31px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
@@ -561,7 +561,7 @@ form input {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   align-items: center;
   color: #979493;
@@ -599,7 +599,7 @@ textarea {
   color: white;
   width: 181px;
   height: 48px;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
