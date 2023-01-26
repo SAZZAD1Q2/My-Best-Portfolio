@@ -557,6 +557,14 @@ ul {
   color: #172b4d;
 }
 
+.form-input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 form input {
   height: 24px;
   margin-bottom: 39px;
