@@ -272,6 +272,30 @@
     margin-right: 42px;
   }
 
+  .contact-form-container button {
+    padding: 12px;
+    background: #ff6b00;
+    color: white;
+    width: 181px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 124px;
+  }
+
+  .contact-last-button button{
+    width: 167px;
+    align-self: flex-start;
+    padding: 17px 12px;
+    color: white;
+    background: #f55800;
+    margin-right: 42px;
+  }
+
   .work-button-mobile button:hover {
     width: 324px;
     align-self: flex-start;
@@ -640,21 +664,6 @@
     border-style: none;
   }
 
-  .contact-form-container button {
-    padding: 12px;
-    background: #ff6b00;
-    color: white;
-    width: 181px;
-    height: 48px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    cursor: pointer;
-    margin-bottom: 124px;
-  }
-
   .contact-form-container button:hover {
     padding: 12px;
     background-color: #fff5e1;
@@ -670,16 +679,7 @@
     cursor: pointer;
   }
 
-  .contact-last-button button{
-    width: 167px;
-    align-self: flex-start;
-    padding: 17px 12px;
-    color: white;
-    background: #f55800;
-    margin-right: 42px;
-  }
-
-  .contact-last-button button:hover{
+  .contact-last-button button:hover {
     width: 167px;
     align-self: flex-start;
     padding: 17px 12px;
@@ -851,6 +851,8 @@
     font-size: 32px;
     line-height: 44px;
     margin-right: 23px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   .main-text .detail {
@@ -991,6 +993,11 @@
     margin-right: 12px;
   }
 
+  .contact-button-card a {
+    text-decoration: none;
+    color: white;
+  }
+
   .work-button-group li a {
     display: flex;
     justify-content: center;
@@ -1049,7 +1056,7 @@
     color: #fff;
   }
 
-  .work-button-desk button{
+  .work-button-desk button {
     width: 324px;
     align-self: flex-start;
     padding: 17px 12px;
@@ -1289,11 +1296,6 @@
     background: rgba(255, 255, 255, 0.24);
     color: white;
     margin-left: 24px;
-  }
-
-  .contact-button-card a {
-    text-decoration: none;
-    color: white;
   }
 
   .pro-card-button {
