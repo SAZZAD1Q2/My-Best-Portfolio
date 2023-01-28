@@ -341,7 +341,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
   }
 
   .pro-buttons li a {
@@ -411,7 +410,6 @@
   }
 
   .about-vector-img {
-    
     height: 1px;
     background-image: url(img/pro5.png);
     background-color: rgb(208, 204, 204);
@@ -553,10 +551,13 @@
 
   .skill {
     padding-top: 107px;
+    padding-bottom: 150px;
+    margin-bottom: 120px;
     display: grid;
     place-items: center;
     width: 327px;
     order: 2;
+    background: #000;
   }
 
   .skill-group {
@@ -1427,12 +1428,22 @@
     align-items: center;
     width: 75vw;
     background: #262626;
-    padding-bottom: 50px;
+    padding-bottom: 350px;
   }
 
   .card-skill h3 {
     color: #fff;
-    width: 228px;
+    width: 375px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .card-skill {
+    color: #fff;
+    width: 375px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1441,6 +1452,8 @@
   }
 
   .skill-group {
+    width: 375px;
+    background-color: #000;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -1464,7 +1477,6 @@
 
   .contact-text {
     width: 455px;
-    margin-top: -50px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
