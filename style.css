@@ -739,6 +739,7 @@
     overflow-x: hidden;
     max-width: 100%;
   }
+
   body {
     width: 100%;
   }
@@ -835,7 +836,6 @@
     align-items: center;
     flex-wrap: wrap;
     height: 670px;
-    width: 100vw;
   }
 
   .main-text {
@@ -1372,12 +1372,11 @@
   .about-lower-img {
     margin: 0 auto;
     width: 20vw;
-   height: 1px;
+    height: 1px;
     background-image: url(img/about-last.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background: rgb(144, 133, 133);
     padding: 0 200px;
   }
 
