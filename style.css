@@ -411,10 +411,11 @@
   }
 
   .about-vector-img {
-    width: 327px;
+    
     height: 1px;
     background-image: url(img/pro5.png);
     background-color: rgb(208, 204, 204);
+    background-size: cover;
     margin-bottom: 30px;
   }
 
@@ -739,6 +740,7 @@
     overflow-x: hidden;
     max-width: 100%;
   }
+
   body {
     width: 100%;
   }
@@ -835,7 +837,6 @@
     align-items: center;
     flex-wrap: wrap;
     height: 670px;
-    width: 100vw;
   }
 
   .main-text {
@@ -1329,7 +1330,7 @@
     margin: 0 auto;
     margin-top: 2px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: 75vw;
@@ -1372,12 +1373,11 @@
   .about-lower-img {
     margin: 0 auto;
     width: 20vw;
-   height: 1px;
+    height: 1px;
     background-image: url(img/about-last.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background: rgb(144, 133, 133);
     padding: 0 200px;
   }
 
@@ -1399,9 +1399,12 @@
   }
 
   .about-desk-img {
-    width: 30vw;
+    margin-right: 0 auto;
+    width: 25%;
     height: 252px;
-    justify-content: flex-end;
+    align-self: flex-end;
+    justify-content: space-between;
+    margin-bottom: 30px;
     overflow: hidden;
   }
 
@@ -1452,11 +1455,11 @@
     align-items: center;
     width: 75vw;
     flex-wrap: wrap;
-    margin-top: 130px;
   }
 
   .form-part {
     margin-top: 87px;
+    width: 35%;
   }
 
   .contact-text {
@@ -1467,6 +1470,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    margin-bottom: 30px;
   }
 
   .form-input {
