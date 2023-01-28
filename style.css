@@ -514,6 +514,7 @@
     margin-top: 120px;
     padding-top: 120px;
     width: 375px;
+    height: 830px;
     background: #1c1a19;
   }
 
@@ -550,7 +551,7 @@
   }
 
   .skill {
-    margin-top: 107px;
+    padding-top: 107px;
     display: grid;
     place-items: center;
     width: 327px;
@@ -732,6 +733,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   body {
     width: 100%;
   }
@@ -763,11 +770,11 @@
   }
 
   .navbar-ul {
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-right: 166px;
+    margin-right: 180px;
     list-style: none;
   }
 
@@ -814,17 +821,20 @@
   /* === main start === */
 
   .main {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     background-color: var(--color-black);
-    padding-bottom: 400px;
+    padding-bottom: 60px;
   }
 
   .main-container {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 870px;
+    height: 670px;
     width: 100vw;
   }
 
@@ -878,6 +888,7 @@
     background-size: cover;
     background-position: 100%;
     margin-top: 0;
+    overflow: hidden;
   }
 
   .image {
@@ -1125,8 +1136,8 @@
   }
 
   .card2.professional-card-1 {
-    width: 327px;
-    margin: 24px;
+    margin-top: -62px;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1159,8 +1170,8 @@
   }
 
   .card2.professional-card-2 {
-    width: 327px;
-    margin: 24px;
+    width: 20vw;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1177,8 +1188,8 @@
   }
 
   .card2.professional-card-3 {
-    width: 327px;
-    margin: 24px;
+    width: 20vw;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1195,8 +1206,8 @@
   }
 
   .card2.professional-card-4 {
-    width: 327px;
-    margin: 24px;
+    width: 20vw;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1213,8 +1224,8 @@
   }
 
   .card2.professional-card-5 {
-    width: 327px;
-    margin: 24px;
+    width: 20vw;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1231,8 +1242,8 @@
   }
 
   .card2.professional-card-6 {
-    width: 327px;
-    margin: 24px;
+    width: 20vw;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1318,7 +1329,7 @@
     margin: 0 auto;
     margin-top: 2px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 75vw;
@@ -1360,15 +1371,18 @@
 
   .about-lower-img {
     margin: 0 auto;
-    width: 950px;
-    height: 1px;
-    margin-top: 40px;
-    background: #807975;
-    margin-bottom: 24px;
+    width: 20vw;
+   height: 1px;
+    background-image: url(img/about-last.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: rgb(144, 133, 133);
+    padding: 0 200px;
   }
 
   .lab {
-    margin-top: -60px;
+    margin-top: -10px;
   }
 
   .mab {
@@ -1376,20 +1390,24 @@
   }
 
   .rab {
-    margin-top: -16px;
+    margin-top: -6px;
     margin-left: 22px;
   }
 
+  .spslill {
+    margin-right: 70px;
+  }
+
   .about-desk-img {
-    width: 472px;
+    width: 30vw;
     height: 252px;
     justify-content: flex-end;
     overflow: hidden;
   }
 
   .about-vector-img {
-    width: 672px;
-    height: 352px;
+    width: 60%;
+    height: 40vh;
     padding-right: -123px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     background-image: url(img/about-deskimg.png);
