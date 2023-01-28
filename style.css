@@ -17,7 +17,7 @@
   }
 
   body {
-    min-width: 375px;
+    min-width: 100vw;
   }
 
   .header {
@@ -78,7 +78,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 375px;
+    width: 67.5vw;
     background: #1c1a19;
   }
 
@@ -341,7 +341,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
-    display: flex;
   }
 
   .pro-buttons li a {
@@ -426,9 +425,7 @@
     flex-wrap: wrap;
     align-items: center;
     width: 327px;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         180.45deg,
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
@@ -514,7 +511,7 @@
     margin-top: 120px;
     padding-top: 120px;
     width: 375px;
-    height: 830px;
+    height: 530px;
     background: #1c1a19;
   }
 
@@ -529,9 +526,6 @@
     line-height: 88px;
     letter-spacing: 0.37px;
     color: #ff6b00;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .card-about-text p {
@@ -551,11 +545,10 @@
   }
 
   .skill {
-    padding-top: 107px;
     display: grid;
     place-items: center;
-    width: 327px;
-    order: 2;
+    width: 377px;
+    background: #1c1a19;
   }
 
   .skill-group {
@@ -563,6 +556,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 200px;
   }
 
   .spslill {
@@ -1143,9 +1137,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         180.45deg,
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
@@ -1177,9 +1169,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
@@ -1195,9 +1185,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0) 0.81%,
         rgba(38, 38, 38, 0.9) 84.03%
@@ -1213,9 +1201,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         180.45deg,
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
@@ -1231,9 +1217,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         180.45deg,
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 84.18%
@@ -1249,9 +1233,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background:
-
-      linear-gradient(
+    background: linear-gradient(
         179.4deg,
         rgba(38, 38, 38, 0) 0.81%,
         rgba(38, 38, 38, 0.9) 84.03%
@@ -1377,7 +1359,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0 200px;
+    padding: 0 20px;
   }
 
   .lab {
@@ -1423,7 +1405,28 @@
     align-items: center;
     width: 75vw;
     background: #262626;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+  }
+
+  .card-skill ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-skill ul li {
+    margin-top: 12px;
+    padding-top: 12px;
+    margin: 0 auto;
+    margin-left: 26px;
+  }
+
+  .card-skill ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
   }
 
   .card-skill h3 {
