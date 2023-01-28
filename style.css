@@ -287,7 +287,7 @@
     margin-bottom: 124px;
   }
 
-  .contact-last-button button{
+  .contact-last-button button {
     width: 167px;
     align-self: flex-start;
     padding: 17px 12px;
@@ -782,6 +782,11 @@
     line-height: 24px;
   }
 
+  .contact-button-card a {
+    text-decoration: none;
+    color: white;
+  }
+
   .navbar-ul li a {
     color: #fff;
     margin-left: 26px;
@@ -991,11 +996,6 @@
     align-items: center;
     list-style: none;
     margin-right: 12px;
-  }
-
-  .contact-button-card a {
-    text-decoration: none;
-    color: white;
   }
 
   .work-button-group li a {
